@@ -5,6 +5,7 @@
 # user-based Collaborative filteirng
 #### user-based Collaborative filteirng relies on the preference of similar users,provide recommendations based on the similar user's data.
 
+## Functions
 #### Correlation between users
 #### Weighted rating = Correlation * user rating
 
