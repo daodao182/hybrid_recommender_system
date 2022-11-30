@@ -12,7 +12,10 @@
 
 ## Functions
 #### Correlation between users
+``` final_df.T.corr()```
+
 #### Weighted rating = Correlation * user rating
+```top_users_ratings["weighted_rating"] = top_users_ratings["correlation"] * top_users_ratings["rating"]```
 
 # Steps:
 #### Data Preparation
