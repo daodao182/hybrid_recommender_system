@@ -1,9 +1,12 @@
-# hybrid_recommender_system
+# Hybrid Recommender System
 
 # content-based filtering
 #### content-based filtering focuses on the similarities in feactures(movie in this case) of the specific user, provide recommendations based the the user's ratings on the movies he has seen.
 # user-based Collaborative filteirng
 #### user-based Collaborative filteirng relies on the preference of similar users,provide recommendations based on the similar user's data.
+
+###Correlation between users
+###Weighted rating = Correlation * user rating
 
 # parameters 
 
