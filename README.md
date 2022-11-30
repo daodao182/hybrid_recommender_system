@@ -1,12 +1,17 @@
 # Hybrid Recommender System
 
-# Item- based content filtering
+# content filtering
 #### content-based filtering focuses on the similarities in feactures(movie in this case) of the specific user, provide recommendations based the the user's ratings on the movies he has seen.
+#### based on user's history.
 # User-based Collaborative filteirng
 #### user-based Collaborative filteirng relies on the preference of similar users,provide recommendations based on the similar user's data.
+# Item-based Collaborative filtering
+
+
+#### We used user-based and item-based collaborative filtering method to make a hybrid recommendation system
 
 # Dataset
-## MovieLens20M dataset.
+#### MovieLens20M dataset.
 #### 20M ratings.csv and 27K movies.csv
 #### merging two dataframe using common unique id(movieid).
 
