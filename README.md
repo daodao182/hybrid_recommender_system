@@ -30,7 +30,13 @@
 #### printing user based and item based recommendation
 
 
-# parameters 
+# Weighted rating
+#### W=(R*v+C*m)/(v+m)
+#### W: weighted-rating
+#### R: average(mean) of the ratings of movie from number 1 to number 10
+#### v:  number of votes for the movie
+#### m: minimum votes required to be listed in Top 250
+
 
 # We could not upload the rating csv file in github
     # File too large for github repo
