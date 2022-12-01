@@ -18,6 +18,8 @@
 ## Functions
 #### Correlation between users
 ``` final_df.T.corr()```
+#### Correlation for item based
+```user_movie_df.corrwith(movie_name)```
 
 #### Weighted rating 
 
