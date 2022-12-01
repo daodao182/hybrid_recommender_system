@@ -19,8 +19,10 @@
 #### Correlation between users
 ``` final_df.T.corr()```
 
-#### Weighted rating = Correlation * user rating
+#### Weighted rating 
+
 ```top_users_ratings["weighted_rating"] = top_users_ratings["correlation"] * top_users_ratings["rating"]```
+```agg({"weighted_rating": "mean"})  ``` 
 
 # Steps:
 #### Data Preparation
